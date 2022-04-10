@@ -10,39 +10,43 @@ To make a prediction based on descriptions, we have to utilize the concept of _n
   extract different features from the text.
 Human languages are complicated, not only notions (symbols) pointing to either abstract or concrete existance, but also tense, emotions, grammars, and other aspects we even can't understand.
 Without the usage of Deep-Learning, there's a hope we can capture some meanings within those choice of features and how important they are with respect to our ultimate question: **_Is a company going to win wealthy investors' favor?_**
-\
+  
 
 
 ### Data Cleaning/Pre-processing
 
-
 #### Explotary Data Analysis
+- Words with high tf-idf
+- Most polar/subject words
+- Anova
+- Chi Square test theory
 ##### Frequency
-One of the easiest part to analysis natural language is by looking at word/phrase frequencies.
+- One of the easiest part to analysis natural language is by looking at word/phrase frequencies.
 ![Word Cloud](pictures/word_cloud.png)
 
-\
 
-Visual relationship of word counts and deal decision.
+- Visual relationship of word counts and deal decision.               
 ![Word Count](pictures/word_count.png)
 
-\
-Possible Relationships between amount of Adjectives and deal decision.
+  
+- Possible Relationships between amount of Adjectives and deal decision.                             
 ![ADJ](pictures/ADJ.png)
 
 #### Feature Engineering
 Converting observations into features.
 
-##### Number of sentences
-##### Total number of words
-##### Total number of each word tag (noun, adj, adv etc.)
-##### Sentiment Analysis Scores
+- Number of sentences
+- Total number of words
+- Total number of each word tag (noun, adj, adv etc.)
+- Sentiment Analysis Scores
 With analysis on sentiments on words, analysis overall scores of one description.
-##### Unigram, Bigram, Trigram, Quadrigram
+- Unigram, Bigram, Trigram, Quadrigram
 Pharse with different length.
-##### Pos, Neu, Neg, Compound, Polarity, Subjectivity
+- Pos, Neu, Neg, Compound, Polarity, Subjectivity
 More absract analysis on descriptions.
-##### Description category
+- Description category
+
+
 
 
 #### PCA
@@ -56,11 +60,6 @@ Result of PCA reduction vectors:
 ![PCA_2D](pictures/PCA - 2D.png)
 
 ![PCA_2D](pictures/PCA - 3D.png)
-
-
-### Visualizations
-
-
 
 
 ### Model Performance Analysis
@@ -80,45 +79,8 @@ We believe that our model can be further enhanced with more time and resource. F
 
 Another way to improve the performance is to try more classifers and use hyperparameter tuning to find the model that gives out the most accurate predictions. Specifically, we would use KNN classifer and use it as a baseline model for the prediction. Then, we would look at more complex model like lightbgm hoping to reach higher accuracy.
 
-Another possible
+
 
 ![word_vector_clustering](pictures/Word_Vector_Clustering.png) 
 (possible word clustering)
-
-
-
-You can use the [editor on GitHub](https://github.com/KULcoder/datahacks/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KULcoder/datahacks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- It's also possible for a larger set of descriptions, topic modeling can help increase accuracy.

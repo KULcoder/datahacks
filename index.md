@@ -22,6 +22,7 @@ With the usage of machine learning, there's a hope we can capture some meanings 
   - Sentiment Analysis
   - TF-IDF
 - Build N-grams
+                      
 #### Explotary Data Analysis
 - Words with high tf-idf
 - Most polar/subject words

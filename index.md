@@ -21,6 +21,8 @@ Without the usage of Deep-Learning, there's a hope we can capture some meanings 
 One of the easiest part to analysis natural language is by looking at word/phrase frequencies.
 ![Word Cloud](pictures/word_cloud.png)
 
+\
+
 Visual relationship of word counts and deal decision.
 ![Word Count](pictures/word_count.png)
 
@@ -55,7 +57,11 @@ Result of PCA reduction vectors:
 For the model selection, we chose Support vector machine, Random Forest, and Logistic Regression to make the binary prediction. To learn how each model performs on the dataset, we first split the dataset into training and testing set. To avoid overfitting and model bias, we adopt the strategy of cross validation and calculated the mean of the overall scores. For hyperparameter tuning, we use grid search to find the parameters that produces the most accurate result. We applied these strategies for all three classifiers, and found that the overall performance of them are decent with the average accuracy being slightly above 0.5. Compared to SVM and Logistic Regression, Random Forest Classifier gives a worse prediction performance. For our final prediction, we decided to use Logistic Regression Classifiers because it has a F1 score of 0.56. For future improvements, we would consider trying more models such as lightbgm, etc.
 
 ![Logistic Regression Confusion Matrix](pictures/Logistic Regression Confusion Matrix.png) 
-
+(Logistic Regression Confusion Matrix)
+![Random Forest Confusion Matrix](pictures/Random Forest Confusion Matrix.png) 
+(Random Forest Confusion Matrix)
+![Logistic Regression Confusion Matrix](pictures/SVM Confusion Matrix.png) 
+(SVM Confusion Matrix)
 
 ### Conclusion
 

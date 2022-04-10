@@ -6,9 +6,31 @@ Shark Tank is a television show that allows prospective companies to pitch to we
 How could we **predict** whether a deal be made or not based on the description? 
 
 Unlike other basic prediction project with multiple categorical/numerical features, a description only contains list of words.
-To make a prediction based on descriptions, we have to utilize the concept of _natural language processing_: extract different features from the text.
+To make a prediction based on descriptions, we have to utilize the concept of _natural language processing_: 
+  extract different features from the text.
 Human languages are complicated, not only notions (symbols) pointing to either abstract or concrete existance, but also tense, emotions, grammars, and other aspects we even can't understand.
 Without the usage of Deep-Learning, there's a hope we can capture some meanings within those choice of features and how important they are with respect to our ultimate question: **_Is a company going to win wealthy investors' favor?_**
+
+
+### Data Cleaning/Pre-processing
+
+#### 
+
+
+
+### Visualizations
+
+
+
+### Model Analysis/Results
+
+
+
+### Conclusion
+
+
+### Future Improvements
+
 
 
 

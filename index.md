@@ -26,16 +26,26 @@ One of the easiest part to analysis natural language is by looking at word/phras
 Visual relationship of word counts and deal decision.
 ![Word Count](pictures/word_count.png)
 
-
-
-
+\
+Possible Relationships between amount of Adjectives and deal decision.
+![ADJ](pictures/ADJ.png)
 
 #### Feature Engineering
+Converting observations into features.
 
-##### Sentiment Analysis
+##### Number of sentences
+##### Total number of words
+##### Total number of each word tag (noun, adj, adv etc.)
+##### Sentiment Analysis Scores
+With analysis on sentiments on words, analysis overall scores of one description.
+##### Unigram, Bigram, Trigram, Quadrigram
+Pharse with different length.
+##### Pos, Neu, Neg, Compound, Polarity, Subjectivity
+More absract analysis on descriptions.
+##### Description category
 
 
-##### PCA
+#### PCA
 
 For an efficient prediction based on our large amount of features, as showed we chosen the PCA decreased dimension to 3.
 
@@ -49,6 +59,7 @@ Result of PCA reduction vectors:
 
 
 ### Visualizations
+
 
 
 

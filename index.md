@@ -13,7 +13,15 @@ With the usage of machine learning, there's a hope we can capture some meanings 
 
 
 ### Data Cleaning/Pre-processing
-
+- Remove special symbol and characters
+- Tokenization
+- Remove stop words
+- Lemmatization
+- Construct a column with only adj. and adv. vocabs
+- Convert Words to Vectors
+  - Sentiment Analysis
+  - TF-IDF
+- Build N-grams
 #### Explotary Data Analysis
 - Words with high tf-idf
 - Most polar/subject words

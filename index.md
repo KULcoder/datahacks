@@ -25,8 +25,8 @@ With the usage of machine learning, there's a hope we can capture some meanings 
 #### Explotary Data Analysis
 - Words with high tf-idf
 - Most polar/subject words
-- Anova
-- Chi Square test theory
+- Column value differences between label groups
+
 ##### Frequency
 - One of the easiest part to analysis natural language is by looking at word/phrase frequencies.
 ![Word Cloud](pictures/word_cloud.png)

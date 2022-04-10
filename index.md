@@ -30,7 +30,7 @@ Without the usage of Deep-Learning, there's a hope we can capture some meanings 
 
 
 ### Future Improvements
-
+![word_vector_clustering](pictures/Word_Vector_Clustering.png) 
 
 
 

@@ -38,12 +38,12 @@ Converting observations into features.
 - Number of sentences
 - Total number of words
 - Total number of each word tag (noun, adj, adv etc.)
-- Sentiment Analysis Scores
-With analysis on sentiments on words, analysis overall scores of one description.
-- Unigram, Bigram, Trigram, Quadrigram
-Pharse with different length.
-- Pos, Neu, Neg, Compound, Polarity, Subjectivity
-More absract analysis on descriptions.
+- Sentiment Analysis Scores                                                           
+  With analysis on sentiments on words, analysis overall scores of one description.
+- Unigram, Bigram, Trigram, Quadrigram                                                              
+  Pharse with different length.
+- Pos, Neu, Neg, Compound, Polarity, Subjectivity                                   
+  More absract analysis on descriptions.
 - Description category
 
 
